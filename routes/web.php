@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
-Route::get('/services', function () {
-    return view('services');
-});
+
+Route::view('/', 'index')->name('home');
+Route::view('services', 'services')->name('services');
+Route::view('contact', 'contact')->name('contact');
+Route::view('about-us', 'about')->name('about');
