@@ -35,7 +35,7 @@
            <div class="row builder_all">
                 <div class="col-md-3 col-sm-6 builder">
                     <i class="fa fa-home" aria-hidden="true"></i>
-                    <h4>Professional Builde</h4>
+                    <h4>Professional Services</h4>
                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p> -->
                 </div>
                 <div class="col-md-3 col-sm-6 builder">
@@ -53,10 +53,14 @@
                     <h4>We Are Pasionate</h4>
                    <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod </p> -->
                 </div>
-            <p style="font-size:140%;font-family:roboto;">    Idea of this venture is to give ready to use platform to aspirants who want to grab opportunities available in the market. <br>
+                <div class="container">
+             <p style="font-size:140%;font-family:roboto;">    Idea of this venture is to give ready to use platform to aspirants who want to grab opportunities available in the market. <br>
 
-Our Concept team focuses on identifying segments wherein consumers and businesses are facing difficulty in transact with each other due to lack of a robust platform which not only bridges the two but also offers assurance on quality of service, turnaround time and proactive support. </p><br><br>
-<img src="images/workflow.jpg" alt="">
+Our Concept team focuses on identifying segments wherein consumers and businesses are facing difficulty in transact with each other due to lack of a robust platform which not only bridges the two but also offers assurance on quality of service, turnaround time and proactive support. </p>
+            </div>
+           
+           
+
            </div>
         </div>
     </section>
@@ -580,34 +584,16 @@ Our Concept team focuses on identifying segments wherein consumers and businesse
     <!- End Our Latest Blog Area -->
 
     <!-- Our Partners Area -->
-  <!--  <section class="our_partners_area">
+   <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
-                <h2>Our Partners</h2>
-                <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry</h4>
+                
+           <center>  <img src="images/workflow.jpg" alt=""> </center>
+            
             </div>
-            <div class="partners">
-                <div class="item"><img src="images/client_logo/client_logo-1.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-2.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-3.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-4.png" alt=""></div>
-                <div class="item"><img src="images/client_logo/client_logo-5.png" alt=""></div>
-            </div>
-        </div>
-        <div class="book_now_aera">
-            <div class="container">
-                <div class="row book_now">
-                    <div class="col-md-10 booking_text">
-                        <h4>Booking now if you need build your dream home.</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="col-md-2 p0 book_bottun">
-                        <a href="#" class="button_all">book now</a>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </section>
-    <!- End Our Partners Area -->
+    <!-- End Our Partners Area  -->
 
    @endsection

@@ -15,7 +15,7 @@
     <section class="our_services_tow">
         <div class="container">
             <div class="architecture_area services_pages">
-                <div class="portfolio_filter portfolio_filter_2">
+             <!--   <div class="portfolio_filter portfolio_filter_2">
                     <ul>
                         <li data-filter="*" class="active"><a href=""><i class="fa fa-wrench" aria-hidden="true"></i>ARCHITECTURE</a></li>
                         <li data-filter=".building"><a href=""><i class="fa fa-cogs" aria-hidden="true"></i>Building</a></li>
@@ -23,7 +23,7 @@
                         <li data-filter=".adversting"><a href=""><i class="fa fa-heart" aria-hidden="true"></i>DESIGN</a></li>
                         <li data-filter=".painting"><a href=""><i class="fa fa-paint-brush" aria-hidden="true"></i>Painting</a></li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="portfolio_item portfolio_2">
                    <div class="grid-sizer-2"></div>
                     <div class="single_facilities col-sm-7 painting building painting adversting">
@@ -51,9 +51,10 @@
                         <!--    <a href="#" class="button_all">Contact Now</a> -->
                         </div>
                     </div>
-                    <div class="single_facilities col-sm-5 painting webdesign">
+               
+               <!--     <div class="single_facilities col-sm-5 painting webdesign">
                         <img src="images/feature-man-4.jpg" alt="">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -72,15 +73,13 @@
 
                 <div class="portfolio_item portfolio_2">
                  <div class="grid-sizer-2"></div>
-                 <div class="single_facilities col-sm-5 painting webdesign">
-                        <img src="images/feature-man-5.jpg" alt="">
-                    </div>
+                 
                     <div class="single_facilities col-sm-7 painting building painting adversting">
 
                         <div class="who_we_area">
 
                             <div class="subtittle">
-                               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h4>CONSULTANCY</h4>
+                            <h4>CONSULTANCY</h4>
                             </div>
                             <ul>
                              <li>Legal Advisory</li>
@@ -105,12 +104,12 @@
                             <li>Real Estate Advisory/Solutions</li>
                              <li> Sales/Marketing Solutions</li>
                             </ul> 
-                               
-
-                         <!--   <a href="#" class="button_all">Contact Now</a> -->
+                               <!--   <a href="#" class="button_all">Contact Now</a> -->
                         </div>
                     </div>
-                    
+                    <!-- <div class="single_facilities col-sm-5 painting webdesign">
+                        <img src="images/feature-man-5.jpg" alt="">
+                    </div> -->
                 </div>
             </div>
         </div>
