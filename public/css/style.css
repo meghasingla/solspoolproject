@@ -561,7 +561,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   text-align: center;
   position: relative;
   z-index: 1;
-  padding-bottom: 70px;
+  padding-bottom: 0px;
+  
 }
 .banner_area:after {
   content: "";
@@ -578,7 +579,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   color: #fff;
   font: 400 40px "Oswald", sans-serif;
   text-transform: uppercase;
-  padding-top: 85px;
+  padding-top: 10px;
 }
 .banner_area .breadcrumb {
   background-color: transparent;
