@@ -5,8 +5,8 @@
     <section class="banner_area" data-stellar-background-ratio="0.5">
         <h2>Contact Us</h2>
         <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#" class="active">Contact Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="{{ route('contact') }}" class="active">Contact Us</a></li>
         </ol>
     </section>
     <!-- End Banner area -->
@@ -45,7 +45,7 @@ INDUSTRIAL AREA, SHAHZADA BAGH, <br>
 NEW DELHI – 110035<br><br>
 
 
-<b>EMAIL ID: -</b> SOLSPOOLTECHNO@GMAIL.COM <br>
+<b>EMAIL ID: -</b> solspooltechno@gmail.com <br>
 <b>MOB. NO: -</b> 8949410042 <br>
 </p>
            <!--         <div class="location">

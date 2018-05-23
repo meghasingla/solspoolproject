@@ -4,9 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Solspool</title>
-
     <!-- Favicon -->
     <link rel="icon" href="images/favicon.png" type="image/x-icon" />
     <!-- Bootstrap CSS -->
@@ -14,15 +12,13 @@
     <!-- Animate CSS -->
     <link href="vendors/animate/animate.css" rel="stylesheet">
     <!-- Icon CSS-->
-	<link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendors/font-awesome/css/font-awesome.min.css">
     <!-- Camera Slider -->
     <link rel="stylesheet" href="vendors/camera-slider/camera.css">
     <!-- Owlcarousel CSS-->
-	<link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
-
+    <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
     <!--Theme Styles CSS-->
-	<link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
-
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -32,13 +28,12 @@
 <body>
     <!-- Preloader -->
     <div class="preloader"></div>
-
-	<!-- Top Header_Area -->
-	<section class="top_header_area">
-	    <div class="container">
+    <!-- Top Header_Area -->
+    <section class="top_header_area">
+        <div class="container">
             <ul class="nav navbar-nav top_nav">
                 <li><a href="#"><i class="fa fa-phone"></i>8949410042</a></li>
-                <li><a href="#"><i class="fa fa-envelope-o"></i>SOLSPOOLTECHNO@GMAIL.COM</a></li>
+                <li><a href="#"><i class="fa fa-envelope-o"></i>solspooltechno@gmail.com </a></li>
                 <li><a href="#"><i class="fa fa-clock-o"></i>Mon - Sat 10:00 - 06:00</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right social_nav">
@@ -49,11 +44,10 @@
                 <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
                 <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
             </ul>
-	    </div>
-	</section>
-	<!-- End Top Header_Area -->
-
-	<!-- Header_Area -->
+        </div>
+    </section>
+    <!-- End Top Header_Area -->
+    <!-- Header_Area -->
     <nav class="navbar navbar-default header_aera" id="main_navbar">
         <div class="container">
             <!-- searchForm -->
@@ -75,17 +69,11 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     </button>
-                    <br>
-                    <br>
-
-                        <h1><span style='color: #f6b60b'>SOLS</span>
-  <span style='color: #000000'>POOL</span></h1>
-                        <!--<h1 style="color:#f6b60b";>SOLS</h1><p style="color:#000000";>POOL</p>-->
-                  
+                    <br><br>
+                   <h1> <span style="color:#f6b60b";>SOLS</span><span style="color:#000000";>POOL</span></h1>
                    <!-- <a class="navbar-brand" href="{{ route('home')}}"><img src="images/logo.png" alt=""></a> -->
                 </div>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="col-md-10 p0">
                 <div class="collapse navbar-collapse" id="min_navbar">
@@ -120,16 +108,14 @@
                             </ul>
                         </li> -->
                         <li><a href="{{URL('contact')}}">Contact</a></li>
-                        <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>
+                       <!-- <li><a href="#" class="nav_searchFrom"><i class="fa fa-search"></i></a></li>-->
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div>
         </div><!-- /.container -->
     </nav>
-	<!-- End Header_Area -->
+    <!-- End Header_Area -->
 @yield('content')
-
-
 <!-- Footer Area -->
     <footer class="footer_area">
         <div class="container">
@@ -156,21 +142,27 @@
                         <li><a href="#"><i class="fa fa-chevron-right"></i>Concreate Transport</a></li> -->
                     </ul>
                 </div>
-                <div class="col-md-3 col-sm-6 footer_about">
-                    <h2>News Feed</h2>
-                    <a href="#" class="twitter"></a>
-                    <a href="#" class="twitter"></a>
+                  <div class="col-md-3 col-sm-6 footer_about quick">
+                    <h2>Services</h2>
+                    <ul class="quick_link">
+                        <li><a href="{{ route('services') }}"><i class="fa fa-chevron-right"></i>Trading</a></li>
+                        <li><a href="{{ route('services') }}"><i class="fa fa-chevron-right"></i>Consultancy</a></li>
+                       
+                    <!--    <li><a href="#"><i class="fa fa-chevron-right"></i>Commercial Construction</a></li>
+                        <li><a href="#"><i class="fa fa-chevron-right"></i>Concreate Transport</a></li> -->
+                    </ul>
                 </div>
+                
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>CONTACT US</h2>
                     <address>
                         <p>Have questions, comments or just want to say hello:</p>
                         <ul class="my_address">
-                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>SOLSPOOLTECHNO@GMAIL.COM </a></li>
+                            <li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i>solspooltechno@gmail.com</a></li>
                             <li><a href="#"><i class="fa fa-phone" aria-hidden="true"></i>8949410042</a></li>
-                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>B-4, PLOT NO. 18, PATWARI COLONY,
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i><span>B-4, PLOT NO. 18, Patwari Colony,
  
-RAJASTHAN 302013 INDIA
+Rajasthan 302013 India
  </span></a></li>
                         </ul>
                     </address>
@@ -182,7 +174,6 @@ RAJASTHAN 302013 INDIA
         </div>
     </footer>
     <!-- End Footer Area -->
-
     <!-- jQuery JS -->
     <script src="js/jquery-1.12.0.min.js"></script>
     <!-- Bootstrap JS -->
@@ -206,4 +197,3 @@ RAJASTHAN 302013 INDIA
     <script src="js/theme.js"></script>
 </body>
 </html>
-

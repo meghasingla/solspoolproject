@@ -5,8 +5,8 @@
     <section class="banner_area" data-stellar-background-ratio="0.5">
         <h2>About Us</h2>
         <ol class="breadcrumb">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#" class="active">About Us</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="{{ route('about') }}" class="active">About Us</a></li>
         </ol>
     </section>
     <!-- End Banner area -->
