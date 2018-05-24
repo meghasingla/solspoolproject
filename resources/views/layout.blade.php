@@ -122,7 +122,7 @@
             <div class="footer_row row">
                 <div class="col-md-3 col-sm-6 footer_about">
                     <h2>ABOUT OUR COMPANY</h2>
-                      <img src="images/footer-logo.jpg" alt=""> 
+                      <img src="images/footer-logo.png" alt=""> 
                     <p>We just help to move one level up : from planning to execution.</p>
                     <ul class="socail_icon">
                         <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
