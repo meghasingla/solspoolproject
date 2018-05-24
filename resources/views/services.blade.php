@@ -144,12 +144,12 @@ p.about-para-w3ls {
     border-right: 1px solid #b1b1b1;
 }
 .advantage-block .fa-credit-card,.advantage-block .fa-clock-o {
-    color: #ffce14;
+    color: #1569C7;
     font-size: 45px;
     margin-bottom: 10px;
 }
 .advantage-block p i {
-    color: #ffce14;
+    color: #1569C7;
     font-size: 13px;
     margin-right: 10px;
 }
