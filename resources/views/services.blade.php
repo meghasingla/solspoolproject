@@ -111,7 +111,7 @@ p.about-para-w3ls {
 }
 .advantage-block {
     padding:2em 2em;
-    background: rgba(0, 0, 0, 0.52);
+    background: rgba(   213, 224, 236, 0.52);
     text-align: center;
 }
 .advantage-block:hover {
@@ -122,7 +122,7 @@ p.about-para-w3ls {
     -o-transition: 0.5s all;
 }
 .advantage-block h4 {
-    font-size: 1.5em;
+    font-size: 1.6em;
     color: #000000;
     margin: 0.5em 0em 0.5em 0em;
     text-transform: capitalize;
@@ -199,23 +199,23 @@ p.about-para-w3ls {
                     <!-- <i class="fa fa-columns" aria-hidden="true"></i> -->
                     <h4>TRADING</h4>
                 <!--    <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p> -->
-                <p><i class="fa fa-check" aria-hidden="true"></i>LED Lights and related accessories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>LED Lights and related accessories&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    
-                    <i class="fa fa-check" aria-hidden="true"></i>Banquet facilities</p>
+                    <i class="fa fa-snowflake-o" aria-hidden="true"></i>Banquet facilities</p>
 
-                <p><i class="fa fa-check" aria-hidden="true"></i>Solar Energy Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Plastic Granule</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Textile Industry Solutions (Fabrics, Yarns, Machineries)</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Agriculture related solutions</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Import/Export</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Leather Products</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Dairy Products</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Coal & Coke</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Flex & Vinyl</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>FMCG Products</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Printing & Stationery</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Computers, Laptops and related products</p>
+                <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Solar Energy Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Plastic Granule</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Textile Industry Solutions (Fabrics, Yarns, Machineries)</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Agriculture related solutions</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Import/Export</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Leather Products</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Dairy Products</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Coal & Coke</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Flex & Vinyl</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>FMCG Products</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Printing & Stationery</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Computers, Laptops and related products</p>
                 </div>
              </div>
              <div class="col-md-6 advantage-grid right-w3ls wow zoomIn" data-wow-delay="0.3s">
@@ -223,23 +223,23 @@ p.about-para-w3ls {
             <!--        <i class="fa fa-clock-o" aria-hidden="true"></i> -->
                     <h4>CONSULTANCY</h4>
              <!--       <p>Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates.</p> -->
-             <p><i class="fa fa-check" aria-hidden="true"></i>Legal Advisory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Legal Advisory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                    
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Banking/Financial Advisory</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Banking/Financial Advisory</p>
 
-                <p><i class="fa fa-check" aria-hidden="true"></i>Digital Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Software/App/Website Deve.</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Documents Verifications</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Loan Syndication</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Construction Contracts</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>EPC Work</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Dairy Projects</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Import/Export Documentation</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Freight Forwarding Solutions (Domestic & International)</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Catering Services</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>Manpower Supply Services</p>
-                    <p><i class="fa fa-check" aria-hidden="true"></i>BPO Solutions&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Project Management Consultancy </p>
+                <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Digital Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                   
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Software/App/Website Deve.</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Documents Verifications</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Loan Syndication</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Construction Contracts</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>EPC Work</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Dairy Projects</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Import/Export Documentation</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Freight Forwarding Solutions (Domestic & International)</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Catering Services</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>Manpower Supply Services</p>
+                    <p><i class="fa fa-snowflake-o" aria-hidden="true"></i>BPO Solutions&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-snowflake-o" aria-hidden="true"></i>Project Management Consultancy </p>
                      
                 </div>
              </div>
