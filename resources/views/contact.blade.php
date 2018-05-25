@@ -19,7 +19,7 @@
     </div>
      <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
         async defer></script> -->
-    <!- End Map -->
+    <!-- End Map -->
 
     <!-- All contact Info -->
     <section class="all_contact_info">
@@ -65,19 +65,23 @@ NEW DELHI – 110035<br><br>
                 </div>
                 <div class="col-sm-6 contact_info send_message">
                     <h2>Send Us a Message</h2>
-                    <form class="form-inline contact_box">
-                        <input type="text" class="form-control input_box" placeholder="First Name *">
+                    <form class="form-inline contact_box" method="post">
+                        {{ csrf_field() }}
+                        <input type="text" name="name" class="form-control input_box" placeholder="Name *">
                      <!--   <input type="text" class="form-control input_box" placeholder="Last Name *"> -->
-                        <input type="text" class="form-control input_box" placeholder="Your Email *">
-                        <input type="text" class="form-control input_box" placeholder="Phone Number">
+                        <input type="text" name="email" class="form-control input_box" placeholder="Your Email *">
+                        <input type="text" name="phone" class="form-control input_box" placeholder="Phone Number">
                        <!-- <input type="text" class="form-control input_box" placeholder="Your Website"> -->
-                        <textarea class="form-control input_box" placeholder="Message"></textarea>
+                        <textarea name="message" class="form-control input_box" placeholder="Message"></textarea>
                         <img src="captcha_code_file.php?rand=<?php echo rand(); ?>"
                         id="captchaimg" >
                         <label for="message">Enter the code above here :</label>
                         <input id="6_letters_code" name="6_letters_code" type="text">
                         <br>
                         <button type="submit" class="btn btn-default">Send Message</button>
+                        @if (session('success'))
+                            <div class="alert alert-success">{{ session('success') }}</div>
+                        @endif  
                     </form>
                 </div>
             </div>

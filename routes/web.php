@@ -11,8 +11,9 @@
 |
 */
 
-
 Route::view('/', 'index')->name('home');
 Route::view('services', 'services')->name('services');
 Route::view('contact', 'contact')->name('contact');
 Route::view('about-us', 'about')->name('about');
+
+Route::post('contact', 'ContactController@send');
