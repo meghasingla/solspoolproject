@@ -9,6 +9,26 @@
             <li><a href="{{ route('services') }}" class="active">Services</a></li>
         </ol>
         <style>
+         body {
+            padding: 0;margin: 0;
+        }
+        .baner {
+            position: relative;
+        }
+        .baner img {
+            width: 100%;
+        }
+        .baner-overlay {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0.65+100 */
+            background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(125,185,232,0.65) 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#a67db9e8',GradientType=1 ); /* IE6-9 */
+        }
+        .baner-overlay {
+            position: absolute;
+            top: 0;left: 0;right: 0;bottom: 0;
+        }
         ul li {
              color: ;
             color:white; 
@@ -189,8 +209,14 @@ p.about-para-w3ls {
         </div>
 
     </section>-->
-    <div class="advantages">
     <div class="container">
+        <div class="baner">
+            <img width=100% src="images/feature-man-3.jpg" alt="" /></div>
+            <div class="baner-overlay">
+            </div>
+        </div>
+    <div class="advantages">
+    <div class="">
         <div class="advantages-main">
                <!-- <h3 class="title-w3-agileits">Our Services</h3>-->
     <div class="advantage-bottom">
@@ -243,6 +269,9 @@ p.about-para-w3ls {
                      
                 </div>
              </div>
+             </div>
+        </div>
+    </div>
             
                   <!--  <p><i class="fa fa-check" aria-hidden="true"></i>Legal Advisory
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Banking/Financial Advisory &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Digital Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Software/App/Website Deve.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Documents Verifications&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Loan Syndication&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Project Finance&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Construction Contracts&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>EPC Work&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Dairy Projects&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Import/Export Documentation&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Freight Forwarding Solutions (Domestic & International)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Catering Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Manpower Supply Services&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>BPO Solutions&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check" aria-hidden="true"></i>Project Management Consultancy</p>

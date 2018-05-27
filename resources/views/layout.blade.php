@@ -24,8 +24,24 @@
     <script src="js/html5shiv.min.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
+    <style>
+        body {
+            /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1569c7+0,7eb8e5+100 */
+            background: #1569c7; /* Old browsers */
+            background: -moz-linear-gradient(left, #1569c7 0%, #7eb8e5 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(left, #1569c7 0%,#7eb8e5 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to right, #1569c7 0%,#7eb8e5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1569c7', endColorstr='#7eb8e5',GradientType=1 ); /* IE6-9 */
+        }
+        body, body p, section {
+            color: #f1f1f1 !important;
+        }
+        section {
+            background: none !important;
+        }
+    </style>
 </head>
-<body style="background-color:#f5f5f5;">
+<body>
     <!-- Preloader -->
     <div class="preloader"></div>
     <!-- Top Header_Area -->

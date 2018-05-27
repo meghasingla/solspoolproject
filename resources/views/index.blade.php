@@ -587,9 +587,7 @@ Our Concept team focuses on identifying segments wherein consumers and businesse
    <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
-                
-           <center>  <img src="images/workflow.jpg" alt=""> </center>
-            
+               <img src="images/workflow.png" width="" alt="">
             </div>
            
         </div>

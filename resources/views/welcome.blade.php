@@ -12,6 +12,7 @@
 
         <!-- Styles -->
         <style>
+
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -65,6 +66,10 @@
         </style>
     </head>
     <body>
+        <div class="container">
+        <div class="baner">
+            <img src="img/feature-man-3.jpg" alt="" />
+            <div class="baner-overlay">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -91,5 +96,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        </div>
+    </div>
     </body>
 </html>
