@@ -86,7 +86,7 @@
                     <span class="icon-bar"></span>
                     </button>
                     <br><br>
-                   <h1> <span style="color:#1569C7";>SOLS</span><span style="color:#000000";>POOL</span></h1>
+                   <h1> <span style="color:#fff";>SOLS</span><span style="color:#000000";>POOL</span></h1>
                    <!-- <a class="navbar-brand" href="{{ route('home')}}"><img src="images/logo.png" alt=""></a> -->
                 </div>
             </div>

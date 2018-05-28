@@ -37,7 +37,7 @@ This files contents are outlined below.
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
 /*Color Variables*/
 ::selection {
-  background-color: #1569C7;
+  background-color: #000000;
   color: #FFFFFF;
 }
 
@@ -50,7 +50,7 @@ This files contents are outlined below.
   background: #1569C7;
   display: block;
   border: 0;
-  color: #222222;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   z-index: 2;
@@ -60,7 +60,7 @@ This files contents are outlined below.
   content: "";
   position: absolute;
   z-index: -1;
-  background: #222222;
+  background: #000000;
   top: 0;
   bottom: 0;
   left: 0;
@@ -85,8 +85,8 @@ This files contents are outlined below.
   text-transform: uppercase;
 }
 .tittle h2 {
-  font: 400 24px "Oswald", sans-serif;
-  color: #222222;
+  font: 400 34px "Georgia", sans-serif;
+  color: #fff;
   padding-top: 90px;
   position: relative;
 }
@@ -109,7 +109,7 @@ This files contents are outlined below.
 /* Subtittle */
 .subtittle h2 {
   font: 700 36px "Roboto", sans-serif;
-  color: #222222;
+  color: #fff;
   text-transform: uppercase;
   position: relative;
   margin-bottom: 20px;
@@ -180,6 +180,7 @@ body section.row, body header.row, body footer.row {
         }
         .baner-overlay {
             /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+100&1+0,0.65+100 */
+             background-image:url('../images/1.jpg');
             background: -moz-linear-gradient(left, rgba(30,87,153,1) 0%, rgba(125,185,232,0.65) 100%); /* FF3.6-15 */
             background: -webkit-linear-gradient(left, rgba(30,87,153,1) 0%,rgba(125,185,232,0.65) 100%); /* Chrome10-25,Safari5.1-6 */
             background: linear-gradient(to right, rgba(30,87,153,1) 0%,rgba(125,185,232,0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
@@ -214,7 +215,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 .top_header_area .top_nav li a {
   font: 400 14px/50px "Roboto", sans-serif;
   color: #fff;
-  padding: 0;
+  padding: 0px;
   padding-left: 30px;
   background: url("../images/banner-bg.jpg") no-repeat fixed;
 
@@ -284,7 +285,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End Top header 2 */
 /* Header Aera */
 .header_aera {
-  background: #fff;
+  background: #1569C7;
   border-radius: 0;
   border: 0;
   margin: 0;
@@ -341,14 +342,14 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   max-width: 100%;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a {
-  font: 700 14px/100px "Roboto", sans-serif;
-  color: #222222;
+  font: 700 18px/100px "Roboto", sans-serif;
+  color: #fff;
   text-transform: uppercase;
   padding: 0;
   padding-left: 30px;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li a:hover, .header_aera .navbar-collapse .navbar-nav.navbar-right li a:focus {
-  color: #1569C7;
+  color: #000000;
 }
 .header_aera .navbar-collapse .navbar-nav.navbar-right li .nav_searchFrom {
   width: 100px;
@@ -586,19 +587,30 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 /* End slider_area_tow */
 /* Banner Area */
 .banner_area {
-  background: url("../images/banner-bg.jpg") no-repeat fixed;
-  background-position: center;
+  background: url("../images/feature-man-3.jpg") no-repeat fixed;
+
+  background-position: cover;
   text-align: center;
   position: relative;
   z-index: 1;
   padding-bottom: 0px;
-  
+  background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),url("../images/feature-man-3.jpg") center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .banner_area:after {
   content: "";
   position: absolute;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+   /*background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg");
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0px 0px;
+    height: 100%;
+  /*background-color: rgba(0, 0, 0, 0.8);*/
   left: 0;
   right: 0;
   bottom: 0;
@@ -606,7 +618,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: -1;
 }
 .banner_area h2 {
-  color: #fff;
+  color: #1569C7;
   font: 400 40px "Oswald", sans-serif;
   text-transform: uppercase;
   padding-top: 10px;
@@ -616,7 +628,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-top: 15px;
 }
 .banner_area .breadcrumb li a {
-  font: 400 14px "Roboto", sans-serif;
+  font: 400 26px "Roboto", sans-serif;
   color: #fefefe;
 }
 .banner_area .breadcrumb li a.active {
@@ -636,11 +648,11 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .professional_builder .builder_all .builder i {
   font-size: 48px;
-  color: #1569C7;
+  color: #fff;
   padding-bottom: 35px;
 }
 .professional_builder .builder_all .builder h4 {
-  font: 700 18px "Roboto", sans-serif;
+  font: 700 20px "Roboto", sans-serif;
   color: #222222;
   padding-bottom: 20px;
 }
@@ -659,10 +671,10 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding-bottom: 70px;
 }
 .about_us_area .about_row p {
-  font: 400 14px/26px "Roboto", sans-serif;
+  font: 400 18px/26px "Roboto", sans-serif;
   color: #555555;
-  padding-top: 28px;
-  padding-bottom: 54px;
+  padding-top: 0px;
+  padding-bottom: 64px;
 }
 .about_us_area .about_row .about_client {
   padding-top: 10px;
@@ -707,6 +719,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .what_we_area .tittle h2:after {
   background: #fff;
+
 }
 .what_we_area .tittle h4 {
   color: #333;
@@ -1987,8 +2000,8 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   padding: 100px 0;
 }
 .all_contact_info .contact_row .contact_info h2 {
-  font: 700 26px/1 "Roboto", sans-serif;
-  color: #222222;
+  font: 700 26px/1 "Georgia", sans-serif;
+  color: #fff;
   padding-bottom: 30px;
   position: relative;
 }
@@ -2002,7 +2015,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   bottom: 0;
 }
 .all_contact_info .contact_row .contact_info p {
-  font: 400 14px/26px "Roboto", sans-serif;
+  font: 400 20px/26px "Roboto", sans-serif;
   color: #555555;
   padding-top: 30px;
 }
@@ -2060,7 +2073,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font: 400 14px/40px "Roboto", sans-serif;
   background: #1569C7;
   width: 140px;
-  color: #222222;
+  color: #fff;
   border: 0;
   border-radius: 0;
   text-transform: uppercase;
@@ -2079,6 +2092,15 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   background-size: cover;
   background-position: center;
   z-index: 1;
+  /*padding: 170px 20px;*/
+    /*height: 100%;
+    width: 100%;*/
+
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1)),url("../images/145.jpg") center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 .footer_area:after {
   content: "";
@@ -2236,7 +2258,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
-  color: #1569C7;
+  color: #000000;
 }
 .footer_area .copyright_area a:hover, .footer_area .copyright_area a:focus {
   color: #fefefe;

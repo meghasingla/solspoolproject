@@ -3,11 +3,43 @@
 
     <!-- Banner area -->
     <section class="banner_area" data-stellar-background-ratio="0.5">
+       
         <h2>Contact Us</h2>
         <ol class="breadcrumb">
             <li><a href="#">Home</a></li>
             <li><a href="{{ route('contact') }}" class="active">Contact Us</a></li>
         </ol>
+        <style>
+body {
+  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;
+   /*<img src="paris.jpg" alt="Paris" class="center">*/
+   /*background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;*/
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   padding: 0px 0px;
+  
+   /* background: rgba(0,0,0,.5);*/
+   /*background-color: #cccccc;*/
+}
+
+       /* .bg-overlay  {
+             padding: 0px 0px;
+    height: 100%;
+    width: 100%;
+
+  /* background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+
+
+ 
+}</style>
     </section>
     <!-- End Banner area -->
 
@@ -23,9 +55,14 @@
 
     <!-- All contact Info -->
     <section class="all_contact_info">
+        <header class="business-header bg-overlay ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12  text-center">
         <div class="container">
             <div class="row contact_row">
                 <div class="col-sm-6 contact_info">
+
                     <h2>Contact Info</h2>
                     <p><b>SOLSPOOL TECHNOLOGIES PRIVATE LIMITED</b> <br><br>
 
@@ -86,6 +123,11 @@ NEW DELHI – 110035<br><br>
                 </div>
             </div>
         </div>
+         </div>
+            </div>
+        </div>
+    </header>
+</section>
     </section>
     <!-- End All contact Info -->
 
