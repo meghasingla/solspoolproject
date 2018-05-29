@@ -7,6 +7,7 @@
             <div data-thumb="images/slider-1.jpg" data-src="images/slider-1.jpg">
                 <div class="camera_caption">
                    <div class="container">
+                  <!--  <img src="images/slider-1.jpg" alt="Smiley face" height="100%" width="100%">-->
                         <h5 class=" wow fadeInUp animated">WELCOME</h5>
                         <h3 class=" wow fadeInUp animated" data-wow-delay="0.5s"><b>“You just focus on your goal, rest on us”.</b></h3>
                      
@@ -587,7 +588,7 @@ Our Concept team focuses on identifying segments wherein consumers and businesse
    <section class="our_partners_area">
         <div class="container">
             <div class="tittle wow fadeInUp">
-               <img src="images/workflow.png" width="" alt="">
+               <img src="images/workflow.png" width="100%" alt="">
             </div>
            
         </div>

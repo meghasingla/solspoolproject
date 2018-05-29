@@ -1,18 +1,16 @@
+
 /*----------------------------------------------------
 @File: Default Styles
 @Author: Colorlib
 @URL:https://colorlib.com
-
 This file contains the styling for the actual theme, this
 is the file you need to edit to change the look of the
 theme.
-
 This files contents are outlined below.
-
-	1. Variables
-	2. Prefix
-	3. header
-	4. Slider
+  1. Variables
+  2. Prefix
+  3. header
+  4. Slider
     5. Builder
     6. About
     7. Offer
@@ -30,8 +28,6 @@ This files contents are outlined below.
     19. Contact
     20. Footer
     21. Responsive
-
-
 ----------------------------------------------------*/
 /*--------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Oswald:300,400,700|Roboto:300,300i,400,400i,500,500i,700,700i");
@@ -481,7 +477,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
 }
 .slider_area .slider_inner .camera_caption div h5 {
   color: #1569C7;
-  font: 400 24px "Roboto", sans-serif;
+  font: 400 50px "Roboto", sans-serif;
 }
 .slider_area .slider_inner .camera_caption div h3 {
   color: #fff;
@@ -618,7 +614,7 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
   z-index: -1;
 }
 .banner_area h2 {
-  color: #1569C7;
+  color: #fff;
   font: 400 40px "Oswald", sans-serif;
   text-transform: uppercase;
   padding-top: 10px;

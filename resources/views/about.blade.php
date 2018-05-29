@@ -23,7 +23,7 @@
  
 }*/
 body {
-  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;
+  background-image: linear-gradient(rgba(72, 153, 226,.8), rgba(72, 153, 226,.8)),url("../images/feature-man-3.jpg") ;
    /*<img src="paris.jpg" alt="Paris" class="center">*/
    /*background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;*/
     height: 100%; 

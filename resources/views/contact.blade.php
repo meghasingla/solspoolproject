@@ -11,7 +11,7 @@
         </ol>
         <style>
 body {
-  background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;
+  background-image: linear-gradient(rgba(72, 153, 226,.8), rgba(72, 153, 226,.8)),url("../images/feature-man-3.jpg") ;
    /*<img src="paris.jpg" alt="Paris" class="center">*/
    /*background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;*/
     height: 100%; 
@@ -63,11 +63,11 @@ body {
             <div class="row contact_row">
                 <div class="col-sm-6 contact_info">
 
-                    <h2>Contact Info</h2>
-                    <p><b>SOLSPOOL TECHNOLOGIES PRIVATE LIMITED</b> <br><br>
+                    <h2 style="text-align: left;" >Contact Info</h2>
+                    <p style="text-align: left;"><b>SOLSPOOL TECHNOLOGIES PRIVATE LIMITED</b> <br><br>
 
 
-<b>REGISTERED OFFICE:</b> - <br>
+<b style="text-align: left;">REGISTERED OFFICE:</b> - <br>
 
 B-4, PLOT NO. 18, PATWARI COLONY,<br>
 SUMITRA TOWER, ROAD NO. 14,<br>
@@ -75,15 +75,15 @@ JODLA POWER HOUSE ROAD JAIPUR <br>
 RAJASTHAN 302013 INDIA<br><br>
 
 
-<b>BRANCH OFFICE :-</b><br>
+<b style="text-align: left;">BRANCH OFFICE :-</b><br>
 
 307/9, 2ND FLOOR, SHAHZADA BAGH <br>
 INDUSTRIAL AREA, SHAHZADA BAGH, <br>
 NEW DELHI – 110035<br><br>
 
 
-<b>EMAIL ID: -</b> solspooltechno@gmail.com <br>
-<b>MOB. NO: -</b> 8949410042 <br>
+<b style="text-align: left;">EMAIL ID: -</b> solspooltechno@gmail.com <br>
+<b style="text-align: left;">MOB. NO: -</b> 8949410042 <br>
 </p>
            <!--         <div class="location">
                         <div class="location_laft">
@@ -101,7 +101,7 @@ NEW DELHI – 110035<br><br>
                     </div> -->
                 </div>
                 <div class="col-sm-6 contact_info send_message">
-                    <h2>Send Us a Message</h2>
+                    <h2 style="text-align: left;">Send Us a Message</h2>
                     <form class="form-inline contact_box" method="post">
                         {{ csrf_field() }}
                         <input type="text" name="name" class="form-control input_box" placeholder="Name *">

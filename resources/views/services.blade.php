@@ -27,7 +27,7 @@
         </ol>
         <style>
         body {
-background-image: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;
+background-image: linear-gradient(rgba(72, 153, 226,0.9), rgba(72, 153, 226,0.9)),url("../images/feature-man-3.jpg");
    /*<img src="paris.jpg" alt="Paris" class="center">*/
    /*background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8)),url("../images/feature-man-3.jpg") ;*/
     height: 100%; 
@@ -214,30 +214,32 @@ h2 {
     padding: 30px;
 
 }*/
-body{background:#444}
-.center-menu{margin:30px auto ;font-family: Georgia; float:none; border-radius: 5px;width: 100%;padding: 0px;padding-bottom: 50px;}
-.center-menu ul{width:100%; padding-left:0;}
-.center-menu ul li{width:100%; min-height:30px; margin-bottom:2px; background:#f4f4f4; list-style:none; padding:20px; 
+body{background:#444
+}
+
+.center-menu{margin:30px auto ;font-family: Georgia; float:none; border-radius: 5px;width: 100%;padding: 0px;font-size: 0px;padding-left: 0px;padding-right: 0px;}
+.center-menu ul{width:100%; padding-left:0;padding-left: 0px;padding-right: 0px;}
+.center-menu ul li{width:100%; min-height:30px; margin-bottom:2px; background:; list-style:none; padding:10px;padding-left: 0px;padding-right: 0px; 
 font-family:"open sans", serif ;
-   font-size:27px;}
-.center-menu ul li i{font-size:20px; color:#ccc; padding-right:5px;}
+   font-size:27px;text-align: left;}
+.center-menu ul li i{font-size:20px; color:#000000; padding-right:5px;padding-left: 0px;padding-right: 0px;}
  
-.center-menu ul li a{color:#4f4f4f; display:block; text-decoration:none; width:100%;}
-.center-menu ul li:nth-child(1){border-right: 5px solid #8d54a3}
-.center-menu ul li:nth-child(2){border-right: 5px solid #6CC437}
-.center-menu ul li:nth-child(3){border-right: 5px solid #f28c1d}
-.center-menu ul li:nth-child(4){border-right: 5px solid #e94979}
-.center-menu ul li:nth-child(5){border-right: 5px solid #00B0F0}
-.center-menu ul li:nth-child(6){border-right: 5px solid #cc3333}
-.center-menu ul li:nth-child(7){border-right: 5px solid #FABE09}
-.center-menu ul li:nth-child(8){border-right: 5px solid #e94979}
-.center-menu ul li:nth-child(9){border-right: 5px solid #8d54a3}
-.center-menu ul li:nth-child(10){border-right: 5px solid #6CC437}
-.center-menu ul li:nth-child(11){border-right: 5px solid #f28c1d}
-.center-menu ul li:nth-child(12){border-right: 5px solid #e94979}
-.center-menu ul li:nth-child(13){border-right: 5px solid #00B0F0}
-.center-menu ul li:nth-child(14){border-right: 5px solid #F46652}
-.center-menu ul li:nth-child(15){border-right: 5px solid #FABE09}
+.center-menu ul li a{color:#03021b; display:block; text-decoration:none; width:100%;padding-left: 0px;padding-right: 0px;}
+.center-menu ul li:nth-child(1)
+.center-menu ul li:nth-child(2)
+.center-menu ul li:nth-child(3)
+.center-menu ul li:nth-child(4)
+.center-menu ul li:nth-child(5)
+.center-menu ul li:nth-child(6)
+.center-menu ul li:nth-child(7)
+.center-menu ul li:nth-child(8)
+.center-menu ul li:nth-child(9)
+.center-menu ul li:nth-child(10)
+.center-menu ul li:nth-child(11)
+.center-menu ul li:nth-child(12)
+.center-menu ul li:nth-child(13)
+.center-menu ul li:nth-child(14)
+.center-menu ul li:nth-child(15)
 .center-menu ul li:nth-child(16){border-right: 5px solid #6CC437}
 .center-menu ul li:nth-child(17){border-right: 5px solid #f28c1d}
 .center-menu ul li:nth-child(18){border-right: 5px solid #e94979}
@@ -321,7 +323,7 @@ font-family:"open sans", serif ;
         <div class="col-md-12">
 <div class="col-md-3 center-menu">
  <ul>
-    <h2>TRADING</h2>
+    <h2 style="font-size:40px; color:#fff; text-align: left;padding-bottom: 20px; ">TRADING</h2>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> LED Lights and related accessories </a></li>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Solar Energy Solutions </a></li>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Plastic Granule</a></li>
@@ -346,7 +348,7 @@ font-family:"open sans", serif ;
 <div class="col-md-12">
 <div class="col-md-3 center-menu">
  <ul>
-      <h2>CONSULTANCY</h2>
+      <h2 style="font-size:40px;color:#fff ;text-align: left;padding-bottom: 20px;">CONSULTANCY</h2>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Legal Advisory </a></li>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Banking/Financial Advisory </a></li>
    <li><a href=""><i class="glyphicon glyphicon-chevron-right"></i> Digital Solutions </a></li>
