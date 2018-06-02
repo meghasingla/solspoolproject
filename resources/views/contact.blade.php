@@ -110,15 +110,14 @@ NEW DELHI – 110035<br><br>
                         <input type="text" name="phone" class="form-control input_box" placeholder="Phone Number">
                        <!-- <input type="text" class="form-control input_box" placeholder="Your Website"> -->
                         <textarea name="message" class="form-control input_box" placeholder="Message"></textarea>
-                        <img src="captcha_code_file.php?rand=<?php echo rand(); ?>"
-                        id="captchaimg" >
-                        <label for="message">Enter the code above here :</label>
-                        <input id="6_letters_code" name="6_letters_code" type="text">
                         <br>
+                        <div class="alert alert-success" style="display: none"></div>
+                        <div class="alert alert-danger" style="display: none"></div>
                         <button type="submit" class="btn btn-default">Send Message</button>
                         @if (session('success'))
                             <div class="alert alert-success">{{ session('success') }}</div>
                         @endif  
+                        
                     </form>
                 </div>
             </div>
@@ -128,7 +127,35 @@ NEW DELHI – 110035<br><br>
         </div>
     </header>
 </section>
-    </section>
     <!-- End All contact Info -->
 
-    @endsection
+@endsection
+@section('scripts')
+<script>
+(function() {
+    $('form').submit(function(e) {
+        e.preventDefault();
+        sendRequest($(this).attr('action'), this);
+    });
+
+    function sendRequest(action, form) {
+        var btn = $(form).find('button:submit'),
+            success = $(form).find('.alert.alert-success').text('').hide(),
+            error = $(form).find('.alert.alert-danger').text('').hide()
+        btn.addClass('_preloader');
+        $.post(action, $(form).serialize(), function(res) {
+            btn.removeClass('_preloader')
+            if(res.status === 'ok') {
+                success.text(res.message).show();
+            }
+        })
+        .error(function(err) {
+            console.log(err);
+            btn.removeClass('_preloader')
+            error.text(err.responseJSON.message).show();
+        })
+    }
+
+})()
+</script>
+@endsection

@@ -19,6 +19,7 @@
     <link rel="stylesheet" type="text/css" href="vendors/owl_carousel/owl.carousel.css" media="all">
     <!--Theme Styles CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="/css/preloader.css" media="all" />
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
     <script src="js/html5shiv.min.js"></script>
@@ -211,5 +212,6 @@ Rajasthan 302013 India
     <script src="vendors/stellar/jquery.stellar.js"></script>
     <!-- Theme JS -->
     <script src="js/theme.js"></script>
+    @yield('scripts')
 </body>
 </html>
